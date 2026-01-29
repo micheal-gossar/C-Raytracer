@@ -1,0 +1,8 @@
+-Ic:/Users/gossa/Documents/Work/Website/minifb/include
+-Ic:/Users/gossa/Documents/Work/Website/minifb/src
+-Ic:/Users/gossa/Documents/Work/Website/headers
+-D_DEBUG
+-DUNICODE
+-D_UNICODE
+-Wall
+--std=c99

@@ -1,0 +1,14 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+
+# VS Code specific
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
