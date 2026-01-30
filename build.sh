@@ -4,7 +4,7 @@ set -e
 # Configuration
 MINIFB_DIR="minifb"
 SRC_DIR="src"
-headers_DIR="headers"
+HEADERS_DIR="headers"
 OUTPUT_EXE="game.exe"
 
 echo "Building Game with MiniFB..."

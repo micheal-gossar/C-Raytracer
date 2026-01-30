@@ -23,7 +23,7 @@ typedef vec3 color;
 #define VDOT(u, v)       ((u).x * (v).x + (u).y * (v).y + (u).z * (v).z)
 #define VLENGTH_SQ(v)    (VDOT(v, v))
 #define VLENGTH(v)       (sqrt(VLENGTH_SQ(v)))
-#define VUNIT(v)         (VDIVIDE(v, VLENGTH(v)))
+#define UNITVECTOR(v)    (VDIVIDE(v, VLENGTH(v)))
 //Vec3 and Int
 #define PLUS(v, t)       ((vec3){(v).x + (t), (v).y + (t), (v).z + (t)})
 #define MINUS(v, t)      ((vec3){(v).x - (t), (v).y - (t), (v).z - (t)})
